@@ -1,11 +1,11 @@
 import { appendInfo } from "./append";
 import "./index.css";
-import "./logo.jpg";
+import icon from "./logo.jpg";
 
 var image = document.getElementById("image");
 
 var logo = document.createElement("img");
-logo.src = "build/2bb871e3186834f90f84197926c9a84f.jpg";
+logo.src = icon;
 
 image.append(logo);
 

@@ -40,16 +40,6 @@ eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=w
 
 /***/ }),
 
-/***/ "./src/logo.jpg":
-/*!**********************!*\
-  !*** ./src/logo.jpg ***!
-  \**********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"2bb871e3186834f90f84197926c9a84f.jpg\");\n\n//# sourceURL=webpack://1.webpack/./src/logo.jpg?");
-
-/***/ }),
-
 /***/ "./src/index.css":
 /*!***********************!*\
   !*** ./src/index.css ***!
@@ -136,7 +126,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _append__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./append */ \"./src/append.js\");\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _logo_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./logo.jpg */ \"./src/logo.jpg\");\n\r\n\r\n\r\n\r\nvar image = document.getElementById(\"image\");\r\n\r\nvar logo = document.createElement(\"img\");\r\nlogo.src = \"build/2bb871e3186834f90f84197926c9a84f.jpg\";\r\n\r\nimage.append(logo);\r\n\r\nvar morning = document.getElementById(\"morning\");\r\nvar afternoon = document.getElementById(\"afternoon\");\r\nvar evening = document.getElementById(\"evening\");\r\nvar night = document.getElementById(\"night\");\r\n\r\nvar morningDiv = document.getElementById(\"morningDiv\");\r\nvar afternoonDiv = document.getElementById(\"afternoonDiv\");\r\nvar eveningDiv = document.getElementById(\"eveningDiv\");\r\nvar nightDiv = document.getElementById(\"nightDiv\");\r\n\r\nvar button = document.querySelector(\"button\");\r\n\r\nbutton.addEventListener(\"click\", function (event)  {\r\n    (0,_append__WEBPACK_IMPORTED_MODULE_0__.appendInfo)(morning.value, morningDiv);\r\n    (0,_append__WEBPACK_IMPORTED_MODULE_0__.appendInfo)(afternoon.value, afternoonDiv);\r\n    (0,_append__WEBPACK_IMPORTED_MODULE_0__.appendInfo)(evening.value, eveningDiv);\r\n    (0,_append__WEBPACK_IMPORTED_MODULE_0__.appendInfo)(night.value, nightDiv);\r\n} );\r\n\r\n\r\n\n\n//# sourceURL=webpack://1.webpack/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _append__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./append */ \"./src/append.js\");\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _logo_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./logo.jpg */ \"./src/logo.jpg\");\n\r\n\r\n\r\n\r\nconsole.log(_logo_jpg__WEBPACK_IMPORTED_MODULE_2__)\r\n\r\nvar image = document.getElementById(\"image\");\r\n\r\nvar logo = document.createElement(\"img\");\r\nlogo.src = _logo_jpg__WEBPACK_IMPORTED_MODULE_2__;\r\n\r\nimage.append(logo);\r\n\r\nvar morning = document.getElementById(\"morning\");\r\nvar afternoon = document.getElementById(\"afternoon\");\r\nvar evening = document.getElementById(\"evening\");\r\nvar night = document.getElementById(\"night\");\r\n\r\nvar morningDiv = document.getElementById(\"morningDiv\");\r\nvar afternoonDiv = document.getElementById(\"afternoonDiv\");\r\nvar eveningDiv = document.getElementById(\"eveningDiv\");\r\nvar nightDiv = document.getElementById(\"nightDiv\");\r\n\r\nvar button = document.querySelector(\"button\");\r\n\r\nbutton.addEventListener(\"click\", function (event)  {\r\n    (0,_append__WEBPACK_IMPORTED_MODULE_0__.appendInfo)(morning.value, morningDiv);\r\n    (0,_append__WEBPACK_IMPORTED_MODULE_0__.appendInfo)(afternoon.value, afternoonDiv);\r\n    (0,_append__WEBPACK_IMPORTED_MODULE_0__.appendInfo)(evening.value, eveningDiv);\r\n    (0,_append__WEBPACK_IMPORTED_MODULE_0__.appendInfo)(night.value, nightDiv);\r\n} );\r\n\r\n\r\n\n\n//# sourceURL=webpack://1.webpack/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/logo.jpg":
+/*!**********************!*\
+  !*** ./src/logo.jpg ***!
+  \**********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"2bb871e3186834f90f84.jpg\";\n\n//# sourceURL=webpack://1.webpack/./src/logo.jpg?");
 
 /***/ })
 
